@@ -180,8 +180,167 @@ public class Ktp {
                         dataList.add("" + st.getNama() + " " + st.getAgama() + " " + st.getJenisKelamin() + " " + st.getPekerjaan() + " " + st.getGolonganDarah() + " " + st.getKelurahan() + " " + st.getRT() + " " + st.getTempatLahir() + " " + st.getTanggalLahir() + " " + st.getKewarganegaraan() + ""); 
                         dataHash.put(st.getNama(), dataList);
                         break;
-            
-            
+            case 2:
+                st.setKelurahan("Jaya");
+                System.out.println("pilih RT");
+                System.out.println("1. RT 101");
+                System.out.println("2. RT 102");
+                System.out.println("3. RT 103");
+                System.out.println("4. RT 104");
+                System.out.println("5. RT 105");
+                System.out.println("Input RT : ");
+                y = sc.nextInt();
+                
+                switch (y) {
+                    case 1:
+                        st.setRT("101");
+                        System.out.println("Input nama :");
+                        n = scn.nextLine();
+                        st.setNama(n);
+                        System.out.println("Input agama :");
+                        a = scn.nextLine();
+                        st.setAgama(a);
+                        System.out.println("Input jenis kelamin :");
+                        jk = scn.nextLine();
+                        st.setJenisKelamin(jk);
+                        System.out.println("Input pekerjaan :");
+                        pk = scn.nextLine();
+                        st.setPekerjaan(pk);
+                        System.out.println("Input golongan darah :");
+                        gd = scn.nextLine();
+                        st.setGolonganDarah(gd);
+                        System.out.println("Input tempat lahir :");
+                        tl = scn.nextLine();
+                        st.setTempatLahir(tl);
+                        System.out.println("Input tanggal lahir :");
+                        tgl = scn.nextLine();
+                        st.setTanggalLahir(tgl);
+                        System.out.println("Input kewarganegaraan :");
+                        k = scn.nextLine();
+                        st.setKewarganegaraan(k);
+                        dataList.add("" + st.getNama() + " " + st.getAgama() + " " + st.getJenisKelamin() + " " + st.getPekerjaan() + " " + st.getGolonganDarah() + " " + st.getKelurahan() + " " + st.getRT() + " " + st.getTempatLahir() + " " + st.getTanggalLahir() + " " + st.getKewarganegaraan() + ""); 
+                        dataHash.put(st.getNama(), dataList);
+                        break;
+                    case 2:
+                        st.setRT("102");
+                        System.out.println("Input nama :");
+                        n = scn.nextLine();
+                        st.setNama(n);
+                        System.out.println("Input agama :");
+                        a = scn.nextLine();
+                        st.setAgama(a);
+                        System.out.println("Input jenis kelamin :");
+                        jk = scn.nextLine();
+                        st.setJenisKelamin(jk);
+                        System.out.println("Input pekerjaan :");
+                        pk = scn.nextLine();
+                        st.setPekerjaan(pk);
+                        System.out.println("Input golongan darah :");
+                        gd = scn.nextLine();
+                        st.setGolonganDarah(gd);
+                        System.out.println("Input tempat lahir :");
+                        tl = scn.nextLine();
+                        st.setTempatLahir(tl);
+                        System.out.println("Input tanggal lahir :");
+                        tgl = scn.nextLine();
+                        st.setTanggalLahir(tgl);
+                        System.out.println("Input kewarganegaraan :");
+                        k = scn.nextLine();
+                        st.setKewarganegaraan(k);
+                        dataList.add("" + st.getNama() + " " + st.getAgama() + " " + st.getJenisKelamin() + " " + st.getPekerjaan() + " " + st.getGolonganDarah() + " " + st.getKelurahan() + " " + st.getRT() + " " + st.getTempatLahir() + " " + st.getTanggalLahir() + " " + st.getKewarganegaraan() + ""); 
+                        dataHash.put(st.getNama(), dataList);
+                        break;
+                        
+                        case 3:
+                        st.setRT("103");
+                        System.out.println("Input nama :");
+                        n = scn.nextLine();
+                        st.setNama(n);
+                        System.out.println("Input agama :");
+                        a = scn.nextLine();
+                        st.setAgama(a);
+                        System.out.println("Input jenis kelamin :");
+                        jk = scn.nextLine();
+                        st.setJenisKelamin(jk);
+                        System.out.println("Input pekerjaan :");
+                        pk = scn.nextLine();
+                        st.setPekerjaan(pk);
+                        System.out.println("Input golongan darah :");
+                        gd = scn.nextLine();
+                        st.setGolonganDarah(gd);
+                        System.out.println("Input tempat lahir :");
+                        tl = scn.nextLine();
+                        st.setTempatLahir(tl);
+                        System.out.println("Input tanggal lahir :");
+                        tgl = scn.nextLine();
+                        st.setTanggalLahir(tgl);
+                        System.out.println("Input kewarganegaraan :");
+                        k = scn.nextLine();
+                        st.setKewarganegaraan(k);
+                        dataList.add("" + st.getNama() + " " + st.getAgama() + " " + st.getJenisKelamin() + " " + st.getPekerjaan() + " " + st.getGolonganDarah() + " " + st.getKelurahan() + " " + st.getRT() + " " + st.getTempatLahir() + " " + st.getTanggalLahir() + " " + st.getKewarganegaraan() + ""); 
+                        dataHash.put(st.getNama(), dataList);
+                        break;
+                        
+                        case 4:
+                        st.setRT("104");
+                        System.out.println("Input nama :");
+                        n = scn.nextLine();
+                        st.setNama(n);
+                        System.out.println("Input agama :");
+                        a = scn.nextLine();
+                        st.setAgama(a);
+                        System.out.println("Input jenis kelamin :");
+                        jk = scn.nextLine();
+                        st.setJenisKelamin(jk);
+                        System.out.println("Input pekerjaan :");
+                        pk = scn.nextLine();
+                        st.setPekerjaan(pk);
+                        System.out.println("Input golongan darah :");
+                        gd = scn.nextLine();
+                        st.setGolonganDarah(gd);
+                        System.out.println("Input tempat lahir :");
+                        tl = scn.nextLine();
+                        st.setTempatLahir(tl);
+                        System.out.println("Input tanggal lahir :");
+                        tgl = scn.nextLine();
+                        st.setTanggalLahir(tgl);
+                        System.out.println("Input kewarganegaraan :");
+                        k = scn.nextLine();
+                        st.setKewarganegaraan(k);
+                        dataList.add("" + st.getNama() + " " + st.getAgama() + " " + st.getJenisKelamin() + " " + st.getPekerjaan() + " " + st.getGolonganDarah() + " " + st.getKelurahan() + " " + st.getRT() + " " + st.getTempatLahir() + " " + st.getTanggalLahir() + " " + st.getKewarganegaraan() + ""); 
+                        dataHash.put(st.getNama(), dataList);
+                        break;
+                        
+                        case 5:
+                        st.setRT("105");
+                        System.out.println("Input nama :");
+                        n = scn.nextLine();
+                        st.setNama(n);
+                        System.out.println("Input agama :");
+                        a = scn.nextLine();
+                        st.setAgama(a);
+                        System.out.println("Input jenis kelamin :");
+                        jk = scn.nextLine();
+                        st.setJenisKelamin(jk);
+                        System.out.println("Input pekerjaan :");
+                        pk = scn.nextLine();
+                        st.setPekerjaan(pk);
+                        System.out.println("Input golongan darah :");
+                        gd = scn.nextLine();
+                        st.setGolonganDarah(gd);
+                        System.out.println("Input tempat lahir :");
+                        tl = scn.nextLine();
+                        st.setTempatLahir(tl);
+                        System.out.println("Input tanggal lahir :");
+                        tgl = scn.nextLine();
+                        st.setTanggalLahir(tgl);
+                        System.out.println("Input kewarganegaraan :");
+                        k = scn.nextLine();
+                        st.setKewarganegaraan(k);
+                        dataList.add("" + st.getNama() + " " + st.getAgama() + " " + st.getJenisKelamin() + " " + st.getPekerjaan() + " " + st.getGolonganDarah() + " " + st.getKelurahan() + " " + st.getRT() + " " + st.getTempatLahir() + " " + st.getTanggalLahir() + " " + st.getKewarganegaraan() + ""); 
+                        dataHash.put(st.getNama(), dataList);
+                        break;
+                }
         }
     }
 }
