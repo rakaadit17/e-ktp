@@ -1,0 +1,96 @@
+
+package KTP;
+
+
+public class KTP {
+     private String prov,kab,nik,nama,ttl,jk,alamat,rtw,kelur,kec,agama,status,pekerjaan,warga,berlaku;
+ 
+    KTP(String prov, String kab, String nama, String ttl, String jk, String alamat, String rtw, String kelur, String kec, String agama, 
+            String status,String pekerjaan, String warga,String berlaku) {
+        
+        this.prov = prov;
+        this.kab = kab;
+        this.nik = nik;
+        this.nama=nama;
+        this.ttl=ttl;
+        this.jk=jk;
+        this.alamat=alamat;
+        this.rtw=rtw;
+        this.kelur=kelur;
+        this.kec=kec;
+        this.agama = agama;
+        this.status=status;
+        this.pekerjaan=pekerjaan;
+        this.warga=warga;
+        this.berlaku=berlaku;
+        
+    
+    }
+
+    KTP() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getProv() {
+        return prov;
+    }
+
+    public String getKab() {
+        return kab;
+    }
+
+    public String getNik() {
+        return nik;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public String getTtl() {
+        return ttl;
+    }
+
+    public String getJk() {
+        return jk;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public String getRtw() {
+        return rtw;
+    }
+
+    public String getKelur() {
+        return kelur;
+    }
+
+    public String getKec() {
+        return kec;
+    }
+
+    public String getAgama() {
+        return agama;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public String getPekerjaan() {
+        return pekerjaan;
+    }
+
+    public String getWarga() {
+        return warga;
+    }
+
+    public String getBerlaku() {
+        return berlaku;
+    }
+ 
+    
+
+}
