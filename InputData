@@ -1,0 +1,29 @@
+
+package KTP;
+
+import java.util.ArrayList;
+
+
+public class InputData {
+    ArrayList<KTP> listKTP; 
+ 
+    public InputData() { 
+        listKTP = new ArrayList (); 
+    }
+ 
+    public void insertData(String prov, String kab, String nama, String ttl, String jk, String alamat, String rtw, String kelur, String kec, String agama, 
+            String status,String pekerjaan, String warga,String berlaku) { 
+        
+        KTP aa = new KTP (); 
+        listKTP.add(aa); 
+    }
+ 
+    public ArrayList<KTP> getALL() { 
+        return listKTP; 
+    }
+ 
+    public void deleteData(int index) { 
+        listKTP.remove(index);
+    }
+}
+    
