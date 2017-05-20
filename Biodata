@@ -2,95 +2,114 @@
 package KTP;
 
 
-public class KTP {
-     private String prov,kab,nik,nama,ttl,jk,alamat,rtw,kelur,kec,agama,status,pekerjaan,warga,berlaku;
- 
-    KTP(String prov, String kab, String nama, String ttl, String jk, String alamat, String rtw, String kelur, String kec, String agama, 
-            String status,String pekerjaan, String warga,String berlaku) {
-        
-        this.prov = prov;
-        this.kab = kab;
-        this.nik = nik;
-        this.nama=nama;
-        this.ttl=ttl;
-        this.jk=jk;
-        this.alamat=alamat;
-        this.rtw=rtw;
-        this.kelur=kelur;
-        this.kec=kec;
+
+public class Biodata {
+    private String nama;
+    private String agama;
+    private String jenisKelamin;
+    private String pekerjaan;
+    private String golonganDarah;
+    private String kelurahan;
+    private String RT;
+    private String tempatLahir;
+    private String tanggalLahir;
+    private String kewarganegaraan;
+
+    public Biodata() {
+    }
+
+    public Biodata(String nama, String agama, String jenisKelamin, String pekerjaan, String golonganDarah, String kelurahan, String RT, String tempatLahir, String tanggalLahir, String kewarganegaraan) {
+        this.nama = nama;
         this.agama = agama;
-        this.status=status;
-        this.pekerjaan=pekerjaan;
-        this.warga=warga;
-        this.berlaku=berlaku;
-        
-    
-    }
-
-    KTP() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public String getProv() {
-        return prov;
-    }
-
-    public String getKab() {
-        return kab;
-    }
-
-    public String getNik() {
-        return nik;
+        this.jenisKelamin = jenisKelamin;
+        this.pekerjaan = pekerjaan;
+        this.golonganDarah = golonganDarah;
+        this.kelurahan = kelurahan;
+        this.RT = RT;
+        this.tempatLahir = tempatLahir;
+        this.tanggalLahir = tanggalLahir;
+        this.kewarganegaraan = kewarganegaraan;
     }
 
     public String getNama() {
         return nama;
     }
 
-    public String getTtl() {
-        return ttl;
-    }
-
-    public String getJk() {
-        return jk;
-    }
-
-    public String getAlamat() {
-        return alamat;
-    }
-
-    public String getRtw() {
-        return rtw;
-    }
-
-    public String getKelur() {
-        return kelur;
-    }
-
-    public String getKec() {
-        return kec;
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
     public String getAgama() {
         return agama;
     }
 
-    public String getStatus() {
-        return status;
+    public void setAgama(String agama) {
+        this.agama = agama;
+    }
+
+    public String getJenisKelamin() {
+        return jenisKelamin;
+    }
+
+    public void setJenisKelamin(String jenisKelamin) {
+        this.jenisKelamin = jenisKelamin;
     }
 
     public String getPekerjaan() {
         return pekerjaan;
     }
 
-    public String getWarga() {
-        return warga;
+    public void setPekerjaan(String pekerjaan) {
+        this.pekerjaan = pekerjaan;
     }
 
-    public String getBerlaku() {
-        return berlaku;
+    public String getGolonganDarah() {
+        return golonganDarah;
     }
- 
+
+    public void setGolonganDarah(String golonganDarah) {
+        this.golonganDarah = golonganDarah;
+    }
+
+    public String getKelurahan() {
+        return kelurahan;
+    }
+
+    public void setKelurahan(String kelurahan) {
+        this.kelurahan = kelurahan;
+    }
+
+    public String getRT() {
+        return RT;
+    }
+
+    public void setRT(String RT) {
+        this.RT = RT;
+    }
+
+    public String getTempatLahir() {
+        return tempatLahir;
+    }
+
+    public void setTempatLahir(String tempatLahir) {
+        this.tempatLahir = tempatLahir;
+    }
+
+    public String getTanggalLahir() {
+        return tanggalLahir;
+    }
+
+    public void setTanggalLahir(String tanggalLahir) {
+        this.tanggalLahir = tanggalLahir;
+    }
+
+    public String getKewarganegaraan() {
+        return kewarganegaraan;
+    }
+
+    public void setKewarganegaraan(String kewarganegaraan) {
+        this.kewarganegaraan = kewarganegaraan;
+    }   
     
 
 }
